@@ -7,7 +7,7 @@ Collection of useful functions and classes to help with tedious and repetitive t
 <ol>
 <li>Fork the repository</li>
 <li>Create a branch in your fork</li>
-<li>Check your changes against <a href="https://github.com/LeVoid/PyUtility/edit/main/CONVENTIONS.md">CONVENTIONS.md</a></li>
+<li>Check your changes against <a href="https://github.com/LeVoid/PyUtility/blob/main/CONVENTIONS.md">CONVENTIONS.md</a></li>
 <li>Make the changes/additions</li>
 <li>Commit your changes</li>
 <li>Create a pull request to merge with this repository</li>
