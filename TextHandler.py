@@ -1,7 +1,14 @@
 """
 A class holding functions that may assist in handling text.
 """
-__STRING_SEPARATOR = "\""
+__STRING_SEPARATOR : str = "\""
+FUNCTIONS : list = [
+    "tokenise",
+    "listprint"
+]
+
+def help():
+    listprint(FUNCTIONS, "Functions of TextHandler", "-> ")
 
 def tokenise(input : str, separator : str = " ") -> list:
     """
