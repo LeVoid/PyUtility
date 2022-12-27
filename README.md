@@ -3,15 +3,20 @@ Collection of useful functions and classes to help with tedious and repetitive t
 
 # Contributing
 <h3>...to the code:</h3>
-Follow these steps:
-1) Fork the repository
-2) Create a branch in your fork
-3) Make the changes/additions
-4) Commit your changes
-5) Create a pull request to merge with this repository
-  (a) When creating a pull request, make sure to write some test cases to ensure that the changes you've made do not affect other parts of the code. (Connections between classes/functions will be marked in the documentation.)
-  (b) Explain your changes and mention an issue your PR solves (if available).
-6) Done
+<p>Follow these steps:
+<ol>
+<li>Fork the repository</li>
+<li>Create a branch in your fork</li>
+<li>Check your changes against <a href="https://github.com/LeVoid/PyUtility/edit/main/CONVENTIONS.md">CONVENTIONS.md</a></li>
+<li>Make the changes/additions</li>
+<li>Commit your changes</li>
+<li>Create a pull request to merge with this repository</li>
+  <ol>
+  <li>When creating a pull request, make sure to write some test cases to ensure that the changes you've made do not affect other parts of the code. (Connections between classes/functions will be marked in the documentation.)</li>
+  <li>Explain your changes and mention an issue your PR solves (if available).</li>
+  </ol>
+<li>Done</li>
+</ol>
 
 <h3>...through bug reporting:</h3>
 Create an issue on GitHub and prefix it with "[BUG]". So your issue should look something like "[BUG] All files are pictures of cats.". The label "bug" will be added by contributors if it is considered a bug.
