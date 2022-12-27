@@ -30,6 +30,10 @@ def tokenise(input : str, separator : str = " ") -> list:
     return final
 
 def listprint(input : list, headline : str = "", prefix : str = "", suffix : str = "") -> None:
+    """
+    Prints every element in a list. A headline may be supplied, which is then printed above the list.
+    If a prefix or suffix is supplied, it is printed before/after every item in the list respectively.
+    """
     if headline != "":
         print(headline)
 
