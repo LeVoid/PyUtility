@@ -12,7 +12,7 @@ Collection of useful functions and classes to help with tedious and repetitive t
 <li>Commit your changes</li>
 <li>Create a pull request to merge with this repository</li>
   <ol>
-  <li>When creating a pull request, make sure to write some test cases to ensure that the changes you've made do not affect other parts of the code. You can create a "testcases"-folder which is already set up in the .gitignore to test some stuff. (Connections between classes/functions will be marked in the documentation.)</li>
+  <li>When creating a pull request, make sure to write some test cases to ensure that the changes you've made do not affect other parts of the code. You can create a test file which looks like this: "<filename>.test.py". These files are already set up in the .gitignore; thus, these files are not pushed. (Connections between classes/functions will be marked in the documentation.)</li>
   <li>Explain your changes and mention an issue your PR solves (if available).</li>
   </ol>
 <li>Done</li>
