@@ -28,3 +28,10 @@ def tokenise(input : str, separator : str = " ") -> list:
         final.append(current_string)
 
     return final
+
+def listprint(input : list, headline : str = "", prefix : str = "", suffix : str = "") -> None:
+    if headline != "":
+        print(headline)
+
+    for item in input:
+        print(prefix + item + suffix)
