@@ -7,7 +7,7 @@ __pycache__/
 CONVENTIONS.md
 
 # Test cases
-testcases/
+*.test.py
 
 # C extensions
 *.so
