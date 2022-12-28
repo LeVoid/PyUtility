@@ -46,3 +46,15 @@ def listprint(input : list, headline : str = "", prefix : str = "", suffix : str
 
     for item in input:
         print(prefix + item + suffix)
+
+def multi_input(questions : list) -> dict:
+    """
+    Takes a list of questions as an input and asks the user about every single one. The user is prompted to give an answer and the result is stored in a dictionary.
+    The dictionary is returned at the end of the questions-list.
+    """
+    results : dict = {}
+
+    for q in questions:
+        results[q] = input(q + ": ")
+    
+    return results
