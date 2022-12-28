@@ -4,7 +4,8 @@ A class holding functions that may assist in handling text.
 __STRING_SEPARATOR : str = "\""
 FUNCTIONS : list = [
     "tokenise",
-    "listprint"
+    "listprint",
+    "multi_input"
 ]
 
 def help():
@@ -42,10 +43,10 @@ def listprint(input : list, headline : str = "", prefix : str = "", suffix : str
     If a prefix or suffix is supplied, it is printed before/after every item in the list respectively.
     """
     if headline != "":
-        print(headline)
+        print(str(headline))
 
     for item in input:
-        print(prefix + item + suffix)
+        print(str(prefix) + str(item) + str(suffix))
 
 def multi_input(questions : list) -> dict:
     """
