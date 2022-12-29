@@ -1,6 +1,7 @@
 """
 A class holding functions that may assist in handling text.
 """
+
 __STRING_SEPARATOR : str = "\""
 FUNCTIONS : list = [
     "tokenise",
