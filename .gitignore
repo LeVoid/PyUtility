@@ -5,6 +5,7 @@ __pycache__/
 
 # Unnecessary
 CONVENTIONS.md
+.github\ISSUE_TEMPLATE
 
 # Test cases
 *.test.py
