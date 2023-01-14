@@ -1,6 +1,11 @@
+"""
+Logging module which may be implemented to log behaviour.
+"""
+
 import loglevel as LOGLEVEL
 
 def create_logger(loglevel : LOGLEVEL):
+    """Creates and returns a new logger object with the specified loglevel."""
     return __Logger(loglevel)
 
 class __Logger:
